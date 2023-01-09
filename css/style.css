@@ -108,6 +108,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	overflow: hidden;
 }
 .content-box a {
 	color: #0d1b2a;
