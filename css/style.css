@@ -16,7 +16,6 @@ html {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	cursor: none;
 }
 
 body {
@@ -67,6 +66,7 @@ p {
 	opacity: 0;
 	display: none;
 	transition: opacity 1s ease-in;
+	position: relative;
 }
 
 .container {
@@ -164,7 +164,7 @@ p {
 	border-radius: 50%;
 	font-size: 2em;
 	transition: 1.25s;
-	cursor: none;
+	cursor: pointer;
 }
 #menu.active .toggle {
 	transform: rotate(315deg);
@@ -249,7 +249,8 @@ p {
 	z-index: 5;
 	width: 20px;
 	height: 20px;
-	background-color: #e0e1dd;
+	background-color: #778da9;
 	border-radius: 50%;
 	pointer-events: none;
+	margin: -10px 0 0 -10px;
 }
