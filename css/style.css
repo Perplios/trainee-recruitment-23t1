@@ -152,6 +152,9 @@ p {
 	transform: rotate(calc(360deg / -4 * var(--i)));
 	transition: 0.5s;
 }
+#menu li a:hover {
+	color: #415a77;
+}
 .toggle {
 	position: absolute;
 	width: 2em;
@@ -246,11 +249,11 @@ p {
 
 #circle-cursor {
 	position: fixed;
-	z-index: 5;
 	width: 20px;
 	height: 20px;
 	background-color: #778da9;
 	border-radius: 50%;
 	pointer-events: none;
 	margin: -10px 0 0 -10px;
+	z-index: 5;
 }
